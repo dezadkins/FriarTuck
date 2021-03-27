@@ -1,11 +1,13 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Header from "./Header/Header";
 
 function App() {
   return (
     <div className="app">
       {/* Header */}
-      <div className="app__header"></div>
+      <div className="app__header">
+        <Header />
+      </div>
       {/* Body */}
       <div className="app__body"></div>
     </div>
