@@ -1,0 +1,18 @@
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  color: white;
+}
+
+.header__logo {
+  margin-left: 48px;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 10px;
+}
