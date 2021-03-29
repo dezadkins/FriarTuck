@@ -13,7 +13,7 @@ function Header() {
       <div className="header__search">
         <div className="header__searchBox">
           {/* <SearchIcon style={{ color: "white" }} /> */}
-          <input placeholder="search" type="text" />
+          <input placeholder="Search" type="text" />
         </div>
       </div>
 
