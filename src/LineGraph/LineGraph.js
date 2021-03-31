@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Line } from "react-chartjs-2";
+import "./LineGraph.css";
 
 function LineGraph() {
   const [graphData, setGraphData] = useState([]);
@@ -59,6 +60,7 @@ function LineGraph() {
           ],
         }}
         options={{
+          maintainAspectRatio: false,
           legend: { display: false },
           tooltips: { mode: "index", intersect: false },
           scales: {
