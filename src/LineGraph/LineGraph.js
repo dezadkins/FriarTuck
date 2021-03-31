@@ -86,7 +86,7 @@ function LineGraph() {
           },
         }}
       />
-      <h1>Line</h1>
+      {/* <h1>Line</h1> */}
     </div>
   );
 }
