@@ -4,12 +4,20 @@ import { Line } from "react-chartjs-2";
 function LineGraph() {
   const data = [
     {
-      x: 10,
+      x: 13,
       y: 20,
     },
     {
       x: 15,
       y: 10,
+    },
+    {
+      x: 12,
+      y: 4,
+    },
+    {
+      x: 16,
+      y: 7,
     },
   ];
   return (
@@ -31,6 +39,19 @@ function LineGraph() {
               pointHoverRadius: 6,
             },
           ],
+        }}
+        options={{
+          legend: { display: false },
+          tooltips: { mode: "index", intersect: false },
+          scales: {
+            yAxes: [
+              {
+                ticks: {
+                  display: false,
+                },
+              },
+            ],
+          },
         }}
       />
       <h1>Line</h1>
