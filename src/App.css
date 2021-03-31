@@ -2,6 +2,19 @@
   text-align: center;
 }
 
+.app__container {
+  display: flex;
+  width: 1024px;
+  height: 100%;
+}
+
+.app__body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+}
+
 body {
   background-color: black;
 }

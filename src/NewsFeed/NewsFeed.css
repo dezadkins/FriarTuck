@@ -1,0 +1,12 @@
+.newsFeed {
+  border: 1px solid orange;
+  flex: 0.7;
+  color: white;
+}
+
+.newsFeed__chart {
+  border: 1px solid green;
+}
+.chart__PortfolioValue {
+  border: 1px solid yellow;
+}
