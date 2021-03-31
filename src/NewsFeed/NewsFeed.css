@@ -4,9 +4,17 @@
   color: white;
 }
 
-.newsFeed__chart {
+.newsFeed__chartSection {
   border: 1px solid green;
 }
 .chart__PortfolioValue {
+  text-align: left;
   border: 1px solid yellow;
+}
+
+.chart__PortfolioValue > h1 {
+  margin: 0;
+}
+.chart__PortfolioValue > p {
+  margin-top: 0;
 }
