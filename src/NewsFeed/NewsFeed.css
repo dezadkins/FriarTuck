@@ -9,7 +9,7 @@
 }
 .chart__PortfolioValue {
   text-align: left;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
 }
 
 .chart__PortfolioValue > h1 {
